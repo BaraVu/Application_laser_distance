@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "cz.laser.bp"
+    },
+    "cordova-plugin-bluetooth-serial": {
+      "PACKAGE_NAME": "cz.laser.bp"
+    },
+    "cordova-plugin-simple-toast": {
+      "PACKAGE_NAME": "cz.laser.bp"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "cz.laser.bp"
+    }
+  },
+  "dependent_plugins": {}
+}

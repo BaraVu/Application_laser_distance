@@ -1,0 +1,285 @@
+header {
+    positon: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+}
+
+    header div.blt {
+    position: absolute;
+    top:5px;
+    height: 50px;
+    width:50px;
+    left: 5px;
+    padding: 0;
+    
+    }
+
+        header div.blt button {
+            position: relative;
+            top: 5px;
+            height: 40px;
+            width: 40px;
+            left: 5px;
+            background-color: bisque;
+        }
+
+    header div.blt img {
+            position: absolute;
+            top: 5px;
+            height: 30px;
+            width: 30px;
+            left: 5px;
+     }
+
+
+    header div.refPoint {
+        position: absolute;
+        top: 5px;
+        height: 50px;
+        width: 70px;
+        left: 70px;
+       
+    }
+
+        header div.refPoint button {
+            position: relative;
+            top: 5px;
+            height: 40px;
+            width: 60px;
+            left: 5px;
+            background-color: bisque;
+        }
+
+        header div.refPoint img {
+            position: absolute;
+            top: 5px;
+            height: 25px;
+            width: 50px;
+            left: 0px;
+        }
+
+    header div.open {
+        position: absolute;
+        top: 5px;
+        height: 30px;
+        width: 30px;
+        left: 230px;
+    }
+
+        header div.open button {
+            position: absolute;
+            top: 0px;
+            height: 50px;
+            width: 50px;
+            left: 0px;
+            background-color: bisque;
+        }
+
+        header div.open img {
+            position: absolute;
+            top: 0px;
+            height: 30px;
+            width: 30px;
+            left: 0px;
+        }
+
+    header div.close {
+        position: absolute;
+        top: 5px;
+        height: 50px;
+        width: 50px;
+        left: 300px;
+    }
+
+        header div.close button {
+            position: absolute;
+            top: 0px;
+            height: 50px;
+            width: 50px;
+            left: 0px;
+            background-color: bisque;
+        }
+
+        header div.close img {
+            position: absolute;
+            top: 0px;
+            height: 30px;
+            width: 50px;
+            left: 0px;
+        }
+
+
+div.plocha {
+    font-size: 15px;
+    position: relative;
+    height: calc(100% - 60px);
+    width: 100%;
+    background-color: burlywood;
+
+
+}
+
+    div.plocha  label {
+        top: 150px;
+        position: relative;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 40px;
+    color: black;
+        }
+
+
+div.blt_set {
+    font-size: 15px;
+    position: relative;
+    height: calc(100% - 70px);
+    width: 100%;
+    background-color: burlywood;
+}
+
+
+div.blt_set button {
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: bisque;
+}
+
+    div.blt_set select {
+        position: relative;
+        top: 10px;
+        height: 40px;
+        width: 120px;
+    }
+
+header div.home {
+    position: absolute;
+    top: 5px;
+    height: 50px;
+    width: 50px;
+    left: 160px;
+}
+
+    header div.home button {
+        position: relative;
+        top: 0px;
+        height: 50px;
+        width: 50px;
+        left:0px;
+        background-color: bisque;
+    }
+
+    header div.home img {
+        position: relative;
+        top: 0px;
+        height: 40px;
+        width: 40px;
+        left: -3px;
+    }
+
+
+div.home_set {
+    font-size: 15px;
+    position: relative;
+    height: calc(100% - 60px);
+    width: 100%;
+    background-color: burlywood;
+}
+
+    div.home_set text  {
+       
+        text-align: center;
+        line-height: 150%;
+        font-size: .85em;
+    }
+
+    div.home_set button {
+        position: relative;
+        top: 350px;
+        left: 80px;
+        height: 100px;
+        width: 200px;
+        background-color: brown;
+        font-size: 50px;
+        border-radius: 50%;
+    }
+
+    div.home_set input {
+        position: absolute;
+        top: 200px;
+        left: 250px;
+    }
+
+    div.home_set text label {
+        position: absolute;
+        display: block;
+        top: 80px;
+        padding-left: 10px;
+        color: black;
+        font-size: 20px;
+    }
+
+    div.home_set mereni label {
+        position: absolute;
+        display: block;
+        top: 105px;
+        padding-left: 10px;
+        color: black;
+        font-size: 40px;
+    }
+
+    div.home_set metr label {
+        position: absolute;
+        display: block;
+        top: 150px;
+        padding-left: 10px;
+        color: black;
+        font-size: 20px;
+    }
+
+    div.textl label {
+        position: absolute;
+        top: 80px;
+        left: 250px;
+        color:black;
+        font-size:20px;
+    }
+
+div.home_set check {
+    position: absolute;
+    top: -100px;
+    
+
+}
+    div.home_set check label {
+   position: absolute;
+   top:200px;
+    left: 280px;
+    font-size: 20px;
+    color: black;
+    }
+
+div.opak input {
+    position: absolute;
+    top: 300px;
+    left: 260px;
+    height: 20px;
+    width: 60px;
+}
+
+div.opak label {
+    position: absolute;
+    top: 303px;
+    left: 20px;
+    font-size:20px;
+    color: black;
+}
+
+
+
+

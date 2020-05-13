@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+
+    <link rel="stylesheet" type="text/css" href="css/style-default.css">
+  
+</head>
+<body>
+    <header>
+        <!-- tlaèítko bluetooth-->
+        <div class="blt">
+            <button id="bltt1"><img src="img/blt.png" /></button>
+        </div>
+        <!-- tlaèítko refeneèní bod -->
+        <div class="refPoint">
+            <button id="refPoint1"><img id="img_ref" src="img/refpBack.png" /></button>
+        </div>
+        <!-- tlaèítko domù-->
+        <div class="home">
+            <button id="home"><img src="img/home.png" /></button>
+        </div>
+
+        <div class="close">
+            <button id="close">CLOSE</button>
+        </div>
+
+        <div class="open">
+            <button id="open">OPEN</button>
+        </div>
+
+
+
+    </header>
+
+    <div id="plocha1" class="plocha">
+        <label>Laser rangefinder</label>
+    </div>
+
+    
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/blt.js"></script>
+    <script type="text/javascript" src="js/bltReader.js"></script>
+    <script type="text/javascript" src="js/measure.js"></script>
+    <script type="text/javascript" src="js/refp.js"></script>
+
+</body>
+</html>

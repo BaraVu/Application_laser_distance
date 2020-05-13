@@ -1,0 +1,61 @@
+{
+  "_from": "cordova-plugin-simple-toast",
+  "_id": "cordova-plugin-simple-toast@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-WeadJT4GWnnHq8tmJZUQOKnGyFA=",
+  "_location": "/cordova-plugin-simple-toast",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-simple-toast",
+    "name": "cordova-plugin-simple-toast",
+    "escapedName": "cordova-plugin-simple-toast",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-simple-toast/-/cordova-plugin-simple-toast-1.0.0.tgz",
+  "_shasum": "59e69d253e065a79c7abcb6625951038a9c6c850",
+  "_spec": "cordova-plugin-simple-toast",
+  "_where": "C:\\Users\\lukas\\applaser",
+  "author": {
+    "name": "Ferdinand E. Silva"
+  },
+  "bugs": {
+    "url": "https://github.com/six519/cordova-plugin-simple-toast/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-simple-toast",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Simple Toast",
+  "engines": [
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.2.0"
+    }
+  ],
+  "homepage": "https://github.com/six519/cordova-plugin-simple-toast#readme",
+  "keywords": [
+    "cordova",
+    "toast",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-simple-toast",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/six519/cordova-plugin-simple-toast.git"
+  },
+  "version": "1.0.0"
+}
